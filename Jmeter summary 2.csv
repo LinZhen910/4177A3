@@ -1,0 +1,5 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+User Registration,120,246,1,495,142.61,41.667%,.07458,0.04,0.03,598.3
+User Login,120,266,89,360,100.37,25.000%,.07457,0.08,0.02,1122.1
+Get Events,120,91,88,111,2.75,0.000%,.07457,0.02,0.01,293.2
+TOTAL,360,201,1,495,127.43,22.222%,.22369,0.15,0.06,671.2
