@@ -19,7 +19,8 @@ interface ProfileSidebarProps {
   onSelect: (section: SidebarItem) => void;
 }
 
-export default function ProfileSidebar({ selected, onSelect }: ProfileSidebarProps) {
+// add new
+const ProfileSidebar = React.memo(function ProfileSidebar({ selected, onSelect }: ProfileSidebarProps) {
   return (
     <Box sx={{ width: 260, display: 'flex', flexDirection: 'column', gap: 2 }}>
       {sidebarItems.map((item) => (
@@ -40,4 +41,6 @@ export default function ProfileSidebar({ selected, onSelect }: ProfileSidebarPro
       ))}
     </Box>
   );
-} 
+});
+
+export default ProfileSidebar;
